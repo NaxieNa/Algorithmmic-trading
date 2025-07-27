@@ -1,0 +1,183 @@
+{
+  "test_date": "2025-07-27T20:12:37.300141",
+  "optimization_method": "Grid Search",
+  "data_sources": [
+    "IBKR API",
+    "Historical CSV"
+  ],
+  "symbols_tested": [
+    "QQQ",
+    "SPY"
+  ],
+  "optimization_improvement": "0.03%",
+  "results_summary": [
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "SPY",
+      "Strategy": "Part I Original (Optimized)",
+      "Total Return (%)": 0.25,
+      "Sharpe Ratio": 0.93,
+      "Max Drawdown (%)": -0.13,
+      "Total Trades": 17,
+      "Win Rate (%)": 47.06,
+      "Optimized": "Yes",
+      "Strategy Type": "Part I Original"
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "SPY",
+      "Strategy": "Part I Enhanced",
+      "Total Return (%)": 0.16,
+      "Sharpe Ratio": -0.84,
+      "Max Drawdown (%)": -0.15,
+      "Total Trades": 13,
+      "Win Rate (%)": 61.54,
+      "Optimized": "No",
+      "Strategy Type": "Part I Enhanced"
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "SPY",
+      "Strategy": "Mean Reversion (Optimized)",
+      "Total Return (%)": 0.04,
+      "Sharpe Ratio": -4.64,
+      "Max Drawdown (%)": -0.09,
+      "Total Trades": 7,
+      "Win Rate (%)": 0.0,
+      "Optimized": "Yes",
+      "Strategy Type": "Mean Reversion"
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "SPY",
+      "Strategy": "Trend Following (Optimized)",
+      "Total Return (%)": 0.0,
+      "Sharpe Ratio": 0.0,
+      "Max Drawdown (%)": 0.0,
+      "Total Trades": 0,
+      "Win Rate (%)": 0.0,
+      "Optimized": "Yes",
+      "Strategy Type": "Trend Following"
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "SPY",
+      "Strategy": "Momentum Scalping",
+      "Total Return (%)": -0.06,
+      "Sharpe Ratio": -5.1,
+      "Max Drawdown (%)": -0.23,
+      "Total Trades": 64,
+      "Win Rate (%)": 32.81,
+      "Optimized": "No",
+      "Strategy Type": NaN
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "SPY",
+      "Strategy": "Range Breakout",
+      "Total Return (%)": 0.0,
+      "Sharpe Ratio": 0.0,
+      "Max Drawdown (%)": 0.0,
+      "Total Trades": 0,
+      "Win Rate (%)": 0.0,
+      "Optimized": "No",
+      "Strategy Type": NaN
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "SPY",
+      "Strategy": "Volume Momentum",
+      "Total Return (%)": 0.16,
+      "Sharpe Ratio": -1.29,
+      "Max Drawdown (%)": -0.09,
+      "Total Trades": 64,
+      "Win Rate (%)": 42.19,
+      "Optimized": "No",
+      "Strategy Type": NaN
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "QQQ",
+      "Strategy": "Part I Original (Optimized)",
+      "Total Return (%)": 0.17,
+      "Sharpe Ratio": -0.47,
+      "Max Drawdown (%)": -0.19,
+      "Total Trades": 26,
+      "Win Rate (%)": 53.85,
+      "Optimized": "Yes",
+      "Strategy Type": "Part I Original"
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "QQQ",
+      "Strategy": "Part I Enhanced",
+      "Total Return (%)": 0.08,
+      "Sharpe Ratio": -2.49,
+      "Max Drawdown (%)": -0.17,
+      "Total Trades": 13,
+      "Win Rate (%)": 61.54,
+      "Optimized": "No",
+      "Strategy Type": "Part I Enhanced"
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "QQQ",
+      "Strategy": "Mean Reversion (Optimized)",
+      "Total Return (%)": 0.2,
+      "Sharpe Ratio": 0.08,
+      "Max Drawdown (%)": -0.07,
+      "Total Trades": 13,
+      "Win Rate (%)": 61.54,
+      "Optimized": "Yes",
+      "Strategy Type": "Mean Reversion"
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "QQQ",
+      "Strategy": "Trend Following (Optimized)",
+      "Total Return (%)": 0.0,
+      "Sharpe Ratio": 0.0,
+      "Max Drawdown (%)": 0.0,
+      "Total Trades": 0,
+      "Win Rate (%)": 0.0,
+      "Optimized": "Yes",
+      "Strategy Type": "Trend Following"
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "QQQ",
+      "Strategy": "Momentum Scalping",
+      "Total Return (%)": 0.24,
+      "Sharpe Ratio": 0.66,
+      "Max Drawdown (%)": -0.21,
+      "Total Trades": 88,
+      "Win Rate (%)": 40.91,
+      "Optimized": "No",
+      "Strategy Type": NaN
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "QQQ",
+      "Strategy": "Range Breakout",
+      "Total Return (%)": 0.0,
+      "Sharpe Ratio": 0.0,
+      "Max Drawdown (%)": 0.0,
+      "Total Trades": 0,
+      "Win Rate (%)": 0.0,
+      "Optimized": "No",
+      "Strategy Type": NaN
+    },
+    {
+      "Data Source": "IBKR Real-Time",
+      "Symbol": "QQQ",
+      "Strategy": "Volume Momentum",
+      "Total Return (%)": 0.08,
+      "Sharpe Ratio": -2.59,
+      "Max Drawdown (%)": -0.17,
+      "Total Trades": 104,
+      "Win Rate (%)": 52.88,
+      "Optimized": "No",
+      "Strategy Type": NaN
+    }
+  ]
+}

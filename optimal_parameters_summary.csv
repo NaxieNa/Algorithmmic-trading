@@ -1,0 +1,7 @@
+Symbol,Strategy,Fitness,Total_Return,Num_Trades,ema_fast,ema_slow,adx_threshold,z_lookback,z_entry_threshold,mr_lookback,mr_entry_z,mr_exit_z,tf_fast,tf_slow,tf_adx_threshold
+SPY,part1_original,4.757132423204827,-1.3043063459197701,33,8.0,10.0,15.0,8.0,1.0,,,,,,
+SPY,mean_reversion,5.495581665563745,-0.9892998551427556,39,,,,,,3.0,0.7,0.0,,,
+SPY,trend_following,10.183880015903428,0.37615098898324817,7,,,,,,,,,3.0,8.0,5.0
+QQQ,part1_original,7.458151583365149,-0.870415613611808,43,2.0,10.0,8.0,5.0,0.5,,,,,,
+QQQ,mean_reversion,16.428824197890012,-0.018900208127570206,49,,,,,,3.0,0.5,0.0,,,
+QQQ,trend_following,11.078723866423967,0.8606050659456743,16,,,,,,,,,2.0,10.0,5.0

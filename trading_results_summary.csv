@@ -1,0 +1,15 @@
+Data Source,Symbol,Strategy,Total Return (%),Sharpe Ratio,Max Drawdown (%),Total Trades,Win Rate (%),Optimized,Strategy Type
+IBKR Real-Time,SPY,Part I Original (Optimized),0.25,0.93,-0.13,17,47.06,Yes,Part I Original
+IBKR Real-Time,SPY,Part I Enhanced,0.16,-0.84,-0.15,13,61.54,No,Part I Enhanced
+IBKR Real-Time,SPY,Mean Reversion (Optimized),0.04,-4.64,-0.09,7,0.0,Yes,Mean Reversion
+IBKR Real-Time,SPY,Trend Following (Optimized),0.0,0.0,0.0,0,0.0,Yes,Trend Following
+IBKR Real-Time,SPY,Momentum Scalping,-0.06,-5.1,-0.23,64,32.81,No,
+IBKR Real-Time,SPY,Range Breakout,0.0,0.0,0.0,0,0.0,No,
+IBKR Real-Time,SPY,Volume Momentum,0.16,-1.29,-0.09,64,42.19,No,
+IBKR Real-Time,QQQ,Part I Original (Optimized),0.17,-0.47,-0.19,26,53.85,Yes,Part I Original
+IBKR Real-Time,QQQ,Part I Enhanced,0.08,-2.49,-0.17,13,61.54,No,Part I Enhanced
+IBKR Real-Time,QQQ,Mean Reversion (Optimized),0.2,0.08,-0.07,13,61.54,Yes,Mean Reversion
+IBKR Real-Time,QQQ,Trend Following (Optimized),0.0,0.0,0.0,0,0.0,Yes,Trend Following
+IBKR Real-Time,QQQ,Momentum Scalping,0.24,0.66,-0.21,88,40.91,No,
+IBKR Real-Time,QQQ,Range Breakout,0.0,0.0,0.0,0,0.0,No,
+IBKR Real-Time,QQQ,Volume Momentum,0.08,-2.59,-0.17,104,52.88,No,

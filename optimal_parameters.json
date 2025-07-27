@@ -1,0 +1,969 @@
+{
+  "ibkr_optimal_parameters": {
+    "SPY": {
+      "part1_original": {
+        "best_params": {
+          "ema_fast": 8,
+          "ema_slow": 10,
+          "adx_threshold": 15,
+          "z_lookback": 8,
+          "z_entry_threshold": 1.0
+        },
+        "best_result": {
+          "fitness": 4.757132423204827,
+          "params": {
+            "ema_fast": 8,
+            "ema_slow": 10,
+            "adx_threshold": 15,
+            "z_lookback": 8,
+            "z_entry_threshold": 1.0
+          },
+          "total_return": -1.3043063459197701,
+          "sharpe_ratio": -4.938461950836567,
+          "max_drawdown": 1.538670169377255,
+          "num_trades": 33,
+          "win_rate": 0.45454545454545453
+        },
+        "all_results": [
+          {
+            "fitness": 4.757132423204827,
+            "params": {
+              "ema_fast": 8,
+              "ema_slow": 10,
+              "adx_threshold": 15,
+              "z_lookback": 8,
+              "z_entry_threshold": 1.0
+            },
+            "total_return": -1.3043063459197701,
+            "sharpe_ratio": -4.938461950836567,
+            "max_drawdown": 1.538670169377255,
+            "num_trades": 33,
+            "win_rate": 0.45454545454545453
+          },
+          {
+            "fitness": 4.710106438591194,
+            "params": {
+              "ema_fast": 2,
+              "ema_slow": 10,
+              "adx_threshold": 15,
+              "z_lookback": 8,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.5034278810530433,
+            "sharpe_ratio": -5.42747062962346,
+            "max_drawdown": 1.5700909456833718,
+            "num_trades": 40,
+            "win_rate": 0.475
+          },
+          {
+            "fitness": 4.710106438591194,
+            "params": {
+              "ema_fast": 2,
+              "ema_slow": 30,
+              "adx_threshold": 15,
+              "z_lookback": 8,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.5034278810530433,
+            "sharpe_ratio": -5.42747062962346,
+            "max_drawdown": 1.5700909456833718,
+            "num_trades": 40,
+            "win_rate": 0.475
+          },
+          {
+            "fitness": 4.710106438591194,
+            "params": {
+              "ema_fast": 2,
+              "ema_slow": 20,
+              "adx_threshold": 10,
+              "z_lookback": 8,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.5034278810530433,
+            "sharpe_ratio": -5.42747062962346,
+            "max_drawdown": 1.5700909456833718,
+            "num_trades": 40,
+            "win_rate": 0.475
+          },
+          {
+            "fitness": 4.710106438591194,
+            "params": {
+              "ema_fast": 5,
+              "ema_slow": 10,
+              "adx_threshold": 10,
+              "z_lookback": 8,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.5034278810530433,
+            "sharpe_ratio": -5.42747062962346,
+            "max_drawdown": 1.5700909456833718,
+            "num_trades": 40,
+            "win_rate": 0.475
+          },
+          {
+            "fitness": 4.590701048790859,
+            "params": {
+              "ema_fast": 8,
+              "ema_slow": 30,
+              "adx_threshold": 8,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.6581580477624813,
+            "sharpe_ratio": -5.8292623636868335,
+            "max_drawdown": 1.7247163900975426,
+            "num_trades": 43,
+            "win_rate": 0.4883720930232558
+          },
+          {
+            "fitness": 4.5755184640869375,
+            "params": {
+              "ema_fast": 2,
+              "ema_slow": 10,
+              "adx_threshold": 8,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.612587178501912,
+            "sharpe_ratio": -5.7085290305200775,
+            "max_drawdown": 1.679176363471767,
+            "num_trades": 42,
+            "win_rate": 0.47619047619047616
+          },
+          {
+            "fitness": 4.5755184640869375,
+            "params": {
+              "ema_fast": 2,
+              "ema_slow": 20,
+              "adx_threshold": 10,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.612587178501912,
+            "sharpe_ratio": -5.7085290305200775,
+            "max_drawdown": 1.679176363471767,
+            "num_trades": 42,
+            "win_rate": 0.47619047619047616
+          },
+          {
+            "fitness": 4.5755184640869375,
+            "params": {
+              "ema_fast": 5,
+              "ema_slow": 30,
+              "adx_threshold": 10,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.612587178501912,
+            "sharpe_ratio": -5.7085290305200775,
+            "max_drawdown": 1.679176363471767,
+            "num_trades": 42,
+            "win_rate": 0.47619047619047616
+          },
+          {
+            "fitness": 4.5755184640869375,
+            "params": {
+              "ema_fast": 3,
+              "ema_slow": 20,
+              "adx_threshold": 8,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.8
+            },
+            "total_return": -1.612587178501912,
+            "sharpe_ratio": -5.7085290305200775,
+            "max_drawdown": 1.679176363471767,
+            "num_trades": 42,
+            "win_rate": 0.47619047619047616
+          }
+        ]
+      },
+      "mean_reversion": {
+        "best_params": {
+          "mr_lookback": 3,
+          "mr_entry_z": 0.7,
+          "mr_exit_z": 0.0
+        },
+        "best_result": {
+          "fitness": 5.495581665563745,
+          "params": {
+            "mr_lookback": 3,
+            "mr_entry_z": 0.7,
+            "mr_exit_z": 0.0
+          },
+          "total_return": -0.9892998551427556,
+          "sharpe_ratio": -4.569602335503804,
+          "max_drawdown": 1.0085004649187106,
+          "num_trades": 39,
+          "win_rate": 0.5128205128205128
+        },
+        "all_results": [
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 3,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.0
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 3,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.05
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 3,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.1
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 5,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.0
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 5,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.05
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 5,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.1
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 8,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.0
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 8,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.05
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.495581665563745,
+            "params": {
+              "mr_lookback": 8,
+              "mr_entry_z": 0.7,
+              "mr_exit_z": 0.1
+            },
+            "total_return": -0.9892998551427556,
+            "sharpe_ratio": -4.569602335503804,
+            "max_drawdown": 1.0085004649187106,
+            "num_trades": 39,
+            "win_rate": 0.5128205128205128
+          },
+          {
+            "fitness": 5.285275271675526,
+            "params": {
+              "mr_lookback": 3,
+              "mr_entry_z": 0.3,
+              "mr_exit_z": 0.0
+            },
+            "total_return": -1.0491779653517885,
+            "sharpe_ratio": -4.72464855977957,
+            "max_drawdown": 1.0683669632895587,
+            "num_trades": 41,
+            "win_rate": 0.4878048780487805
+          }
+        ]
+      },
+      "trend_following": {
+        "best_params": {
+          "tf_fast": 3,
+          "tf_slow": 8,
+          "tf_adx_threshold": 5
+        },
+        "best_result": {
+          "fitness": 10.183880015903428,
+          "params": {
+            "tf_fast": 3,
+            "tf_slow": 8,
+            "tf_adx_threshold": 5
+          },
+          "total_return": 0.37615098898324817,
+          "sharpe_ratio": -0.8000814121347017,
+          "max_drawdown": 0.0951657997665768,
+          "num_trades": 7,
+          "win_rate": 1.0
+        },
+        "all_results": [
+          {
+            "fitness": 10.183880015903428,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 8,
+              "tf_adx_threshold": 5
+            },
+            "total_return": 0.37615098898324817,
+            "sharpe_ratio": -0.8000814121347017,
+            "max_drawdown": 0.0951657997665768,
+            "num_trades": 7,
+            "win_rate": 1.0
+          },
+          {
+            "fitness": 10.183880015903428,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 8,
+              "tf_adx_threshold": 8
+            },
+            "total_return": 0.37615098898324817,
+            "sharpe_ratio": -0.8000814121347017,
+            "max_drawdown": 0.0951657997665768,
+            "num_trades": 7,
+            "win_rate": 1.0
+          },
+          {
+            "fitness": 10.183880015903428,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 8,
+              "tf_adx_threshold": 10
+            },
+            "total_return": 0.37615098898324817,
+            "sharpe_ratio": -0.8000814121347017,
+            "max_drawdown": 0.0951657997665768,
+            "num_trades": 7,
+            "win_rate": 1.0
+          },
+          {
+            "fitness": 10.183880015903428,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 10,
+              "tf_adx_threshold": 5
+            },
+            "total_return": 0.37615098898324817,
+            "sharpe_ratio": -0.8000814121347017,
+            "max_drawdown": 0.0951657997665768,
+            "num_trades": 7,
+            "win_rate": 1.0
+          },
+          {
+            "fitness": 10.183880015903428,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 10,
+              "tf_adx_threshold": 8
+            },
+            "total_return": 0.37615098898324817,
+            "sharpe_ratio": -0.8000814121347017,
+            "max_drawdown": 0.0951657997665768,
+            "num_trades": 7,
+            "win_rate": 1.0
+          },
+          {
+            "fitness": 10.183880015903428,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 10,
+              "tf_adx_threshold": 10
+            },
+            "total_return": 0.37615098898324817,
+            "sharpe_ratio": -0.8000814121347017,
+            "max_drawdown": 0.0951657997665768,
+            "num_trades": 7,
+            "win_rate": 1.0
+          },
+          {
+            "fitness": 10.117895036107447,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 5,
+              "tf_adx_threshold": 5
+            },
+            "total_return": 0.7189393705298919,
+            "sharpe_ratio": 1.1088963921405497,
+            "max_drawdown": 0.030294488147229168,
+            "num_trades": 5,
+            "win_rate": 0.8
+          },
+          {
+            "fitness": 10.117895036107447,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 5,
+              "tf_adx_threshold": 8
+            },
+            "total_return": 0.7189393705298919,
+            "sharpe_ratio": 1.1088963921405497,
+            "max_drawdown": 0.030294488147229168,
+            "num_trades": 5,
+            "win_rate": 0.8
+          },
+          {
+            "fitness": 10.117895036107447,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 5,
+              "tf_adx_threshold": 10
+            },
+            "total_return": 0.7189393705298919,
+            "sharpe_ratio": 1.1088963921405497,
+            "max_drawdown": 0.030294488147229168,
+            "num_trades": 5,
+            "win_rate": 0.8
+          },
+          {
+            "fitness": 9.790212195690497,
+            "params": {
+              "tf_fast": 1,
+              "tf_slow": 8,
+              "tf_adx_threshold": 5
+            },
+            "total_return": 0.4375461798099778,
+            "sharpe_ratio": -0.24837090929716638,
+            "max_drawdown": 0.07958271593223011,
+            "num_trades": 8,
+            "win_rate": 0.875
+          }
+        ]
+      }
+    },
+    "QQQ": {
+      "part1_original": {
+        "best_params": {
+          "ema_fast": 2,
+          "ema_slow": 10,
+          "adx_threshold": 8,
+          "z_lookback": 5,
+          "z_entry_threshold": 0.5
+        },
+        "best_result": {
+          "fitness": 7.458151583365149,
+          "params": {
+            "ema_fast": 2,
+            "ema_slow": 10,
+            "adx_threshold": 8,
+            "z_lookback": 5,
+            "z_entry_threshold": 0.5
+          },
+          "total_return": -0.870415613611808,
+          "sharpe_ratio": -3.042667513042988,
+          "max_drawdown": 1.2772970154477634,
+          "num_trades": 43,
+          "win_rate": 0.6744186046511628
+        },
+        "all_results": [
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 2,
+              "ema_slow": 10,
+              "adx_threshold": 8,
+              "z_lookback": 5,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 5,
+              "ema_slow": 15,
+              "adx_threshold": 8,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 8,
+              "ema_slow": 10,
+              "adx_threshold": 10,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 3,
+              "ema_slow": 15,
+              "adx_threshold": 8,
+              "z_lookback": 8,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 5,
+              "ema_slow": 20,
+              "adx_threshold": 8,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 2,
+              "ema_slow": 15,
+              "adx_threshold": 15,
+              "z_lookback": 5,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 8,
+              "ema_slow": 15,
+              "adx_threshold": 15,
+              "z_lookback": 10,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 5,
+              "ema_slow": 15,
+              "adx_threshold": 15,
+              "z_lookback": 8,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 3,
+              "ema_slow": 30,
+              "adx_threshold": 8,
+              "z_lookback": 8,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          },
+          {
+            "fitness": 7.458151583365149,
+            "params": {
+              "ema_fast": 3,
+              "ema_slow": 10,
+              "adx_threshold": 8,
+              "z_lookback": 8,
+              "z_entry_threshold": 0.5
+            },
+            "total_return": -0.870415613611808,
+            "sharpe_ratio": -3.042667513042988,
+            "max_drawdown": 1.2772970154477634,
+            "num_trades": 43,
+            "win_rate": 0.6744186046511628
+          }
+        ]
+      },
+      "mean_reversion": {
+        "best_params": {
+          "mr_lookback": 3,
+          "mr_entry_z": 0.5,
+          "mr_exit_z": 0.0
+        },
+        "best_result": {
+          "fitness": 16.428824197890012,
+          "params": {
+            "mr_lookback": 3,
+            "mr_entry_z": 0.5,
+            "mr_exit_z": 0.0
+          },
+          "total_return": -0.018900208127570206,
+          "sharpe_ratio": -1.2925112243345218,
+          "max_drawdown": 0.8818679779550866,
+          "num_trades": 49,
+          "win_rate": 0.5918367346938775
+        },
+        "all_results": [
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 3,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.0
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 3,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.05
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 3,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.1
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 5,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.0
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 5,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.05
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 5,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.1
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 8,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.0
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 8,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.05
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.428824197890012,
+            "params": {
+              "mr_lookback": 8,
+              "mr_entry_z": 0.5,
+              "mr_exit_z": 0.1
+            },
+            "total_return": -0.018900208127570206,
+            "sharpe_ratio": -1.2925112243345218,
+            "max_drawdown": 0.8818679779550866,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          },
+          {
+            "fitness": 16.395475051375485,
+            "params": {
+              "mr_lookback": 3,
+              "mr_entry_z": 0.3,
+              "mr_exit_z": 0.0
+            },
+            "total_return": -0.029074432769626846,
+            "sharpe_ratio": -1.3182739211006622,
+            "max_drawdown": 0.8919543857200849,
+            "num_trades": 49,
+            "win_rate": 0.5918367346938775
+          }
+        ]
+      },
+      "trend_following": {
+        "best_params": {
+          "tf_fast": 2,
+          "tf_slow": 10,
+          "tf_adx_threshold": 5
+        },
+        "best_result": {
+          "fitness": 11.078723866423967,
+          "params": {
+            "tf_fast": 2,
+            "tf_slow": 10,
+            "tf_adx_threshold": 5
+          },
+          "total_return": 0.8606050659456743,
+          "sharpe_ratio": 2.206370678473258,
+          "max_drawdown": 0.10319823568698616,
+          "num_trades": 16,
+          "win_rate": 0.8125
+        },
+        "all_results": [
+          {
+            "fitness": 11.078723866423967,
+            "params": {
+              "tf_fast": 2,
+              "tf_slow": 10,
+              "tf_adx_threshold": 5
+            },
+            "total_return": 0.8606050659456743,
+            "sharpe_ratio": 2.206370678473258,
+            "max_drawdown": 0.10319823568698616,
+            "num_trades": 16,
+            "win_rate": 0.8125
+          },
+          {
+            "fitness": 11.078723866423967,
+            "params": {
+              "tf_fast": 2,
+              "tf_slow": 10,
+              "tf_adx_threshold": 8
+            },
+            "total_return": 0.8606050659456743,
+            "sharpe_ratio": 2.206370678473258,
+            "max_drawdown": 0.10319823568698616,
+            "num_trades": 16,
+            "win_rate": 0.8125
+          },
+          {
+            "fitness": 11.078723866423967,
+            "params": {
+              "tf_fast": 2,
+              "tf_slow": 10,
+              "tf_adx_threshold": 10
+            },
+            "total_return": 0.8606050659456743,
+            "sharpe_ratio": 2.206370678473258,
+            "max_drawdown": 0.10319823568698616,
+            "num_trades": 16,
+            "win_rate": 0.8125
+          },
+          {
+            "fitness": 10.481032113380328,
+            "params": {
+              "tf_fast": 2,
+              "tf_slow": 5,
+              "tf_adx_threshold": 5
+            },
+            "total_return": 0.6053545130933813,
+            "sharpe_ratio": 0.8861194601552835,
+            "max_drawdown": 0.13424780432990085,
+            "num_trades": 8,
+            "win_rate": 0.875
+          },
+          {
+            "fitness": 10.481032113380328,
+            "params": {
+              "tf_fast": 2,
+              "tf_slow": 5,
+              "tf_adx_threshold": 8
+            },
+            "total_return": 0.6053545130933813,
+            "sharpe_ratio": 0.8861194601552835,
+            "max_drawdown": 0.13424780432990085,
+            "num_trades": 8,
+            "win_rate": 0.875
+          },
+          {
+            "fitness": 10.481032113380328,
+            "params": {
+              "tf_fast": 2,
+              "tf_slow": 5,
+              "tf_adx_threshold": 10
+            },
+            "total_return": 0.6053545130933813,
+            "sharpe_ratio": 0.8861194601552835,
+            "max_drawdown": 0.13424780432990085,
+            "num_trades": 8,
+            "win_rate": 0.875
+          },
+          {
+            "fitness": 10.386733829810078,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 5,
+              "tf_adx_threshold": 5
+            },
+            "total_return": 0.711819861281926,
+            "sharpe_ratio": 0.924173191991524,
+            "max_drawdown": 0.08919372973611991,
+            "num_trades": 7,
+            "win_rate": 0.8571428571428571
+          },
+          {
+            "fitness": 10.386733829810078,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 5,
+              "tf_adx_threshold": 8
+            },
+            "total_return": 0.711819861281926,
+            "sharpe_ratio": 0.924173191991524,
+            "max_drawdown": 0.08919372973611991,
+            "num_trades": 7,
+            "win_rate": 0.8571428571428571
+          },
+          {
+            "fitness": 10.386733829810078,
+            "params": {
+              "tf_fast": 3,
+              "tf_slow": 5,
+              "tf_adx_threshold": 10
+            },
+            "total_return": 0.711819861281926,
+            "sharpe_ratio": 0.924173191991524,
+            "max_drawdown": 0.08919372973611991,
+            "num_trades": 7,
+            "win_rate": 0.8571428571428571
+          },
+          {
+            "fitness": 10.31570097332149,
+            "params": {
+              "tf_fast": 1,
+              "tf_slow": 8,
+              "tf_adx_threshold": 5
+            },
+            "total_return": 0.6905816444758406,
+            "sharpe_ratio": 1.2904425938433401,
+            "max_drawdown": 0.10319823568697825,
+            "num_trades": 14,
+            "win_rate": 0.7857142857142857
+          }
+        ]
+      }
+    }
+  },
+  "historical_optimal_parameters": {}
+}

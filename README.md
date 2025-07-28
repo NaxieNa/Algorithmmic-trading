@@ -91,7 +91,6 @@ The research notebook includes:
 
 Yaming Xie  
 London, UK  
-CQF Candidate, LSE MSc Finance (PT) Applicant  
 [GitHub Profile](https://github.com/NaxieNa)
 
 ## License

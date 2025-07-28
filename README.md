@@ -1,86 +1,99 @@
-# Algorithmmic-trading
 # Algorithmic Trading: Enhanced Mean Reversion and Trend Following Strategies
 
-This repository contains a complete algorithmic trading research project developed as part of my Certificate in Quantitative Finance (CQF) coursework and portfolio submission for MSc Finance (Part-Time) at LSE. The project integrates multiple strategy types, data pipelines, and backtesting modules, with compatibility for both historical data and real-time IBKR deployment.
+This repository contains a full-cycle algorithmic trading system integrating classical financial theories, quantitative factor modeling, and real-time deployment capabilities. The project was developed as part of the Certificate in Quantitative Finance (CQF) and is submitted as a technical showcase for the MSc Finance (Part-Time) program at the London School of Economics and Political Science (LSE).
 
-## Project Overview
+## Project Objectives
 
-The goal of this project is to systematically design, optimize, and validate a set of algorithmic trading strategies across different market regimes and asset classes. The core focus is on:
+The system aims to:
 
-- Mean reversion models (Z-score, Ornstein–Uhlenbeck process)
-- Trend-following strategies (EMA, ADX, MACD)
-- High-frequency modules (momentum scalping, breakout detection, volume-driven entry)
-- IBKR live paper trading integration
-- Cross-validation on SPY, QQQ, GLD, and TSLA
+- Combine mean reversion and trend-following logics within a unified execution pipeline
+- Design strategies that are robust across asset classes (e.g., SPY, QQQ, TSLA, GLD)
+- Validate performance through both historical backtesting and real-time paper trading
+- Integrate broker connectivity via Interactive Brokers (IBKR) API
+- Provide modular, testable, and extensible infrastructure for live market operations
 
-## Key Features
+## Strategy Components
 
-- End-to-end pipeline including data ingestion, feature engineering, signal generation, and execution
-- Parameter optimization with in-sample and out-of-sample evaluation
-- Strategy-specific performance metrics: Sharpe ratio, win rate, max drawdown, trade frequency
-- Modular Python design, compatible with Jupyter Notebook and standalone `.py` execution
-- Visual and statistical analysis included in final report
+The implemented strategies include:
 
-## Structure
+- **Mean Reversion Models**: Z-score based reversal detection; optional OU-process extensions
+- **Trend-Following Modules**: Exponential Moving Average (EMA), Average Directional Index (ADX), MACD crossover detection
+- **High-Frequency Add-ons**: Momentum scalping, breakout confirmation, volume spikes
+- **Parameter Optimization**: In-sample grid search with validation on out-of-sample performance
+- **Risk Control**: Drawdown monitoring, volatility filters, trade frequency limits
+
+## Folder Structure
 
 ```
 .
-├── brokers/               # Broker API integration (IBKR)
-├── config/                # Global configuration and constants
-├── core/                  # Strategy core engine and execution loop
-├── data/                  # Data ingestion, feature engineering
-├── examples/              # Example scripts for single strategy testing
-├── monitoring/            # Real-time logs, error handling
-├── strategies/            # Strategy definitions (mean reversion, trend following, etc.)
-├── tests/                 # Unit and functional testing
-├── utils/                 # Helper functions, plotting tools
-├── main.py                # Main entry point for pipeline execution
-├── FINAL_REPORT.ipynb     # Final project report (Jupyter Notebook)
-├── docs/                  # PDF reports and visual outputs
-└── requirements.txt       # Python dependencies
+├── brokers/               # IBKR API wrapper and broker management
+├── config/                # Config files (symbols, thresholds, trading calendar)
+├── core/                  # Main pipeline orchestration logic
+├── data/                  # Raw and processed data handlers
+├── docs/                  # Exported visual reports and PDFs
+├── examples/              # Sample scripts for running individual strategies
+├── monitoring/            # Logging, error tracking, and execution monitoring
+├── strategies/            # Strategy logic: reversion, trend, high-frequency modules
+├── tests/                 # Unit tests and validation checks
+├── utils/                 # Helper functions, plotting, and tools
+├── AL_trading.ipynb     # Main notebook report: full implementation and results
+├── requirements.txt       # Dependency list for reproducible environment
+└── README.md              # Project documentation (this file)
 ```
 
-## Installation
+## Key Deliverables
 
-Clone the repository:
+- **Notebook Report**: `AL_trading.ipynb` contains full workflow, backtesting visuals, and performance metrics.
+- **Source Modules**: Each component is separately callable for flexible testing or integration.
+
+## How to Use
+
+1. Clone the repository:
 
 ```bash
 git clone git@github.com:NaxieNa/Algorithmmic-trading.git
 cd Algorithmmic-trading
 ```
 
-Create a virtual environment and install dependencies:
+2. Set up environment:
 
 ```bash
 python -m venv env
-source env/bin/activate  # For macOS/Linux
+source env/bin/activate   # On macOS/Linux
 pip install -r requirements.txt
 ```
 
-Or use `conda`:
+3. Run the Jupyter Notebook:
 
 ```bash
-conda create -n trading_env python=3.11
-conda activate trading_env
-pip install -r requirements.txt
+jupyter notebook FINAL_REPORT.ipynb
 ```
 
-## How to Run
+4. Alternatively, run pipeline via:
 
-- For historical backtesting via notebook: open `FINAL_REPORT.ipynb`
-- For real-time execution with IBKR API: run `main.py` after configuring `config/` and `brokers/ibkr_broker.py`
-- Strategy-specific scripts are available in `examples/`
+```bash
+python main.py
+```
 
+Ensure broker credentials and trading settings are configured under `config/` and `brokers/`.
 
+## Report Highlights
+
+The research notebook includes:
+
+- Multi-strategy logic design
+- Mathematical derivations (e.g., Lagrangian optimization, Sharpe ratio)
+- In-sample and out-of-sample performance validation
+- Feature engineering for predictive modeling
+- Real-time market execution examples
 
 ## Author
 
 Yaming Xie  
-London, UK   
-Contact: [GitHub Profile](https://github.com/NaxieNa)
-
----
+London, UK  
+CQF Candidate, LSE MSc Finance (PT) Applicant  
+[GitHub Profile](https://github.com/NaxieNa)
 
 ## License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is released under the MIT License.

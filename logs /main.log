@@ -1,0 +1,30 @@
+2025-07-19 12:21:44,609 - main - INFO - main.py:44 - Initializing trading system...
+2025-07-19 12:21:44,631 - main - INFO - main.py:80 - Registered strategy: mean_reversion (allocation: 30.0%)
+2025-07-19 12:21:44,636 - main - INFO - main.py:80 - Registered strategy: trend_following (allocation: 30.0%)
+2025-07-19 12:21:44,690 - main - INFO - main.py:80 - Registered strategy: combined (allocation: 40.0%)
+2025-07-19 12:21:44,694 - main - INFO - main.py:88 - Creating backtest broker
+2025-07-19 12:21:44,703 - main - INFO - main.py:115 - Loading data for SPY
+2025-07-19 12:22:01,734 - main - WARNING - main.py:128 - No data loaded for SPY
+2025-07-19 12:22:01,735 - main - INFO - main.py:115 - Loading data for QQQ
+2025-07-19 12:22:06,625 - main - WARNING - main.py:128 - No data loaded for QQQ
+2025-07-19 12:22:06,625 - main - INFO - main.py:115 - Loading data for IWM
+2025-07-19 12:22:13,275 - main - WARNING - main.py:128 - No data loaded for IWM
+2025-07-19 12:22:13,276 - main - INFO - main.py:115 - Loading data for TLT
+2025-07-19 12:22:20,802 - main - WARNING - main.py:128 - No data loaded for TLT
+2025-07-19 12:22:20,823 - main - INFO - main.py:115 - Loading data for GLD
+2025-07-19 12:22:31,308 - main - WARNING - main.py:128 - No data loaded for GLD
+2025-07-19 12:22:31,310 - main - INFO - main.py:59 - Trading system initialized successfully
+2025-07-19 12:22:31,341 - main - INFO - main.py:187 - Monitoring dashboard started
+2025-07-19 12:22:31,343 - main - INFO - main.py:146 - Starting trading engine...
+2025-07-19 12:25:19,594 - main - INFO - main.py:171 - Received signal 2
+2025-07-19 12:25:28,793 - main - INFO - main.py:171 - Received signal 2
+2025-07-19 12:25:31,306 - main - INFO - main.py:171 - Received signal 2
+2025-07-19 12:25:31,353 - main - INFO - main.py:159 - Shutting down trading system...
+2025-07-19 12:25:31,354 - main - INFO - main.py:166 - Trading system shutdown complete
+2025-07-19 12:25:31,355 - main - INFO - main.py:159 - Shutting down trading system...
+2025-07-19 12:25:31,356 - main - INFO - main.py:166 - Trading system shutdown complete
+2025-07-19 12:25:31,356 - main - INFO - main.py:159 - Shutting down trading system...
+2025-07-19 12:25:31,357 - main - INFO - main.py:166 - Trading system shutdown complete
+2025-07-19 12:25:31,358 - main - INFO - main.py:159 - Shutting down trading system...
+2025-07-19 12:25:31,358 - main - INFO - main.py:166 - Trading system shutdown complete
+2025-07-19 12:25:31,361 - main - INFO - main.py:283 - Program terminated

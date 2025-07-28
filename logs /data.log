@@ -1,0 +1,10 @@
+2025-07-19 12:21:44,728 - data.data_manager - INFO - data_manager.py:51 - Fetching SPY data from yahoo
+2025-07-19 12:22:01,733 - data.data_manager - WARNING - data_manager.py:84 - No data returned for SPY
+2025-07-19 12:22:01,736 - data.data_manager - INFO - data_manager.py:51 - Fetching QQQ data from yahoo
+2025-07-19 12:22:06,624 - data.data_manager - WARNING - data_manager.py:84 - No data returned for QQQ
+2025-07-19 12:22:06,625 - data.data_manager - INFO - data_manager.py:51 - Fetching IWM data from yahoo
+2025-07-19 12:22:13,273 - data.data_manager - WARNING - data_manager.py:84 - No data returned for IWM
+2025-07-19 12:22:13,277 - data.data_manager - INFO - data_manager.py:51 - Fetching TLT data from yahoo
+2025-07-19 12:22:20,770 - data.data_manager - WARNING - data_manager.py:84 - No data returned for TLT
+2025-07-19 12:22:20,826 - data.data_manager - INFO - data_manager.py:51 - Fetching GLD data from yahoo
+2025-07-19 12:22:31,306 - data.data_manager - WARNING - data_manager.py:84 - No data returned for GLD
